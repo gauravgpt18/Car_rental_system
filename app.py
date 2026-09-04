@@ -113,8 +113,8 @@ if 'branch_system' not in st.session_state:
     branch = RentalSystem()
 
     # Sample vehicles and customers
-    sample_car = Car(vehicle_id='V001', brand="Maruti", model="Swift Dzire", year=2022, rental_rate_per_day=5, seats=5, fuel_type="Petrol")
-    sample_bike = Bike(vehicle_id='V002', brand="Royal Enfield", model="Himalaya", year=2022, rental_rate_per_day=3, engine_cc=350, helmet_required=True)
+    sample_car = Car(vehicle_id='V001', brand="Maruti", model="Swift Dzire", year=2022, rental_rate_per_day=1500, seats=5, fuel_type="Petrol")
+    sample_bike = Bike(vehicle_id='V002', brand="Royal Enfield", model="Himalaya", year=2022, rental_rate_per_day=800, engine_cc=350, helmet_required=True)
 
     branch.add_vehicle(sample_car)
     branch.add_vehicle(sample_bike)
